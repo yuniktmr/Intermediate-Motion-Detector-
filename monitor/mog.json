@@ -1,0 +1,16 @@
+{
+	
+	"picamera":false,
+	"bg_sub": "MOG",
+	"erode":{"kernel":[3,3], "iterations":1},
+	"dilate":{"kernel":[5,5], "iterations":2},
+	"min_radius" :80,
+	"keyclipwriter_buffersize": 50,
+	"codec":"MJPG",
+	"write_snaps":true,
+	"frames_between_snaps":30,
+	"annotate":true,
+	"display":true,
+	"output_path":"output_mog",
+	"fps":20
+}
